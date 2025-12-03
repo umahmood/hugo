@@ -1,0 +1,23 @@
+baseURL = 'https://www.usman.me.uk'
+languageCode = 'en-gb'
+title = 'Blog'
+theme = "poison"
+copyright = "Usman Mahmood"
+publishDir = "../umahmood.github.io"
+
+[Author]
+    name = "Usman Mahmood"
+
+[params]
+    brand = "Usman Mahmood"
+    description = "Algorithms + Data Structures = Programs"
+    front_page_content = ["posts"]
+    dark_mode = true
+    brand_image = "/images/gopher.png"
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", Limit = 5},
+    ]
+
+github_url = "https://github.com/umahmood"
+x_url = "https://x.com/make_slice"
