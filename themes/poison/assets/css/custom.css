@@ -21,3 +21,19 @@ html {
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+/* Example: make content wider and centered */
+.content {
+    max-width: 100%; /* or 100%, or 80rem – whatever you prefer */
+    width: 100%;
+}
+
+/* Hide vertical scrollbar */
+.container.content {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.container.content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
