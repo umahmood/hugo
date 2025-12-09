@@ -139,7 +139,7 @@ python3 -m line_profiler -rtmz profile_output.lprof
 
 The output shows detailed profiling results of the function we added our decorator to:
 
-```
+```plain
 Timer unit: 1e-06 s
 
 Total time: 3.44566 s
